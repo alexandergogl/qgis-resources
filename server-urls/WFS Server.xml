@@ -1,0 +1,12 @@
+<!DOCTYPE connections>
+<qgsWFSConnections version="1.0">
+    <wfs password="" referer="" username="" url="https://data.wien.gv.at/daten/geo?version=1.1.0&amp;" name="AT - Basemap"/>
+    <wfs password="" referer="" username="" url="https://gis.tirol.gv.at/arcgis/services/Service_Public/OGD/MapServer/WFSServer?" name="AT - Tyrol - Tiris"/>
+    <wfs password="" referer="" username="" url="http://data.wien.gv.at/daten/geo?version=1.1.0&amp;" name="AT - Vienna"/>
+    <wfs password="" referer="" username="" url="http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_06_09gfz_grz2011" name="DE - Berlin - Cemetries"/>
+    <wfs password="" referer="" username="" url="http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_06_09_03gfz2011" name="DE - Berlin - GFZ"/>
+    <wfs password="" referer="" username="" url="http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_gebgeschoss" name="DE - Berlin - Geschosshoehen"/>
+    <wfs password="" referer="" username="" url="http://fbinter.stadt-berlin.de/fb/wfs/geometry/senstadt/re_gwgleichen2013" name="DE - Berlin - gwgleichen 2013"/>
+    <wfs password="" referer="" username="" url="http://mapsrefdev.brgm.fr/wxs/1GE/EGDI_1M_INSPIRE_geolUnits?" name="EU - BRGM - European soil data"/>
+    <wfs password="" referer="" username="" url="http://maps.zh.ch/wfs/AVZHWFS" name="Switzerland - Zürich - amtliche Vermessung"/>
+</qgsWFSConnections>
