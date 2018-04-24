@@ -13,7 +13,7 @@ Download the xml files from the following list by clicking on the link > clickin
 
 ### Importing server URLs into QGIS 3
 
-Next, import the xml files into QGIS by launching QGIS and clicking on the symbol beneath the new file symbol (Datenquellenverwaltung öffnen).
+Import the xml files into QGIS by launching QGIS and clicking on the symbol beneath the new file symbol (Datenquellenverwaltung öffnen).
 
 ![Datenquellenverwaltung öffnen](images/qgis-01.png)
 
