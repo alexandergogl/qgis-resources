@@ -1,0 +1,797 @@
+<Composer title="_1" visible="1">
+ <Composition gridVisible="0" printResolution="300" paperWidth="420" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="297" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+  <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <effect enabled="0" type="effectStack">
+     <effect type="dropShadow">
+      <prop k="blend_mode" v="13"/>
+      <prop k="blur_level" v="10"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="draw_mode" v="2"/>
+      <prop k="enabled" v="0"/>
+      <prop k="offset_angle" v="135"/>
+      <prop k="offset_distance" v="2"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="offset_unit_scale" v="0,0"/>
+      <prop k="transparency" v="0"/>
+     </effect>
+     <effect type="outerGlow">
+      <prop k="blend_mode" v="0"/>
+      <prop k="blur_level" v="3"/>
+      <prop k="color_type" v="0"/>
+      <prop k="draw_mode" v="2"/>
+      <prop k="enabled" v="0"/>
+      <prop k="single_color" v="255,255,255,255"/>
+      <prop k="spread" v="2"/>
+      <prop k="spread_unit" v="MM"/>
+      <prop k="spread_unit_scale" v="0,0"/>
+      <prop k="transparency" v="0.5"/>
+     </effect>
+     <effect type="drawSource">
+      <prop k="blend_mode" v="0"/>
+      <prop k="draw_mode" v="2"/>
+      <prop k="enabled" v="1"/>
+      <prop k="transparency" v="0"/>
+     </effect>
+     <effect type="innerShadow">
+      <prop k="blend_mode" v="13"/>
+      <prop k="blur_level" v="10"/>
+      <prop k="color" v="0,0,0,255"/>
+      <prop k="draw_mode" v="2"/>
+      <prop k="enabled" v="0"/>
+      <prop k="offset_angle" v="135"/>
+      <prop k="offset_distance" v="2"/>
+      <prop k="offset_unit" v="MM"/>
+      <prop k="offset_unit_scale" v="0,0"/>
+      <prop k="transparency" v="0"/>
+     </effect>
+     <effect type="innerGlow">
+      <prop k="blend_mode" v="0"/>
+      <prop k="blur_level" v="3"/>
+      <prop k="color_type" v="0"/>
+      <prop k="draw_mode" v="2"/>
+      <prop k="enabled" v="0"/>
+      <prop k="single_color" v="255,255,255,255"/>
+      <prop k="spread" v="2"/>
+      <prop k="spread_unit" v="MM"/>
+      <prop k="spread_unit_scale" v="0,0"/>
+      <prop k="transparency" v="0.5"/>
+     </effect>
+    </effect>
+   </layer>
+  </symbol>
+  <ComposerLegend symbolWidth="5" title="Key" boxSpace="0" splitLayer="1" equalColumnWidth="0" map="1" titleAlignment="1" symbolHeight="3" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="5" wmsLegendWidth="50" columnCount="1">
+   <styles>
+    <style marginBottom="2" name="title">
+     <styleFont description="Calibri,14,-1,5,75,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="4" name="group">
+     <styleFont description="Calibri,11,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="4" name="subgroup">
+     <styleFont description="Calibri,9,-1,5,75,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="1.5" name="symbol">
+     <styleFont description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+    <style marginTop="1.5" marginLeft="1.5" name="symbolLabel">
+     <styleFont description="Calibri,9,-1,5,50,0,0,0,0,0" style=""/>
+    </style>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="Grocery_stores_Kopie20150303112748623" name="network-grocery_stores.light">
+     <customproperties>
+      <property key="legend/title-label" value="Grocery stores"/>
+      <property key="showFeatureCount" value="1"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="Settlement_area20150119144936966" name="Settlement area">
+     <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Eco_Hubs___Potential_bulidings___0120150308123757629" name="Eco Hubs - Potential bulidings">
+     <customproperties>
+      <property key="legend/title-label" value="Potential Eco-Hubs"/>
+      <property key="legend/title-style" value="subgroup"/>
+      <property key="showFeatureCount" value="1"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <ComposerItem pagey="226.368" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="3.2179" y="226.368" visibility="1" zValue="5" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="34.5531" outlineWidth="0.3" excludeFromExports="0" uuid="{973bdf69-8aca-44d5-abb8-e893041d3e77}" height="69.9734" itemRotation="0" frame="false" pagex="3.2179">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerMap mapRotation="1" keepLayerSet="false" id="1" previewMode="Cache" drawCanvasItems="true">
+   <Extent ymin="-353748.57676759519381449" xmin="-396768.79678429587511346" ymax="203126.4238004173967056" xmax="345731.20397305424557999"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{41307d34-9fe0-41c0-9020-8f6967fa18f5}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Gitter 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="square"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="0" page="1" id="Berlin - large scale" lastValidViewScaleFactor="2.85164" positionMode="0" positionLock="false" x="0" y="0" visibility="0" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="297" outlineWidth="0.3" excludeFromExports="0" uuid="{90ba4fae-97b8-4a8f-b74e-1f9973054eaa}" height="222.75" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerMap mapRotation="1" keepLayerSet="false" id="3" previewMode="Cache" drawCanvasItems="true">
+   <Extent ymin="-44010.10650271256599808" xmin="-65710.97766593522101175" ymax="89639.89363361045252532" xmax="112489.02251582879398484"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{dea91178-d092-4f96-b6c1-b6f93db20f15}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Gitter 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="square"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="0" page="1" id="Berlin - Surroundings+" lastValidViewScaleFactor="2.85714" positionMode="0" positionLock="false" x="0" y="0" visibility="0" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="297" outlineWidth="0.3" excludeFromExports="0" uuid="{296fa33d-3d8e-4ac9-8022-0df5a0edea5f}" height="222.75" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerMap mapRotation="1" keepLayerSet="false" id="2" previewMode="Cache" drawCanvasItems="true">
+   <Extent ymin="-21735.10647999207867542" xmin="-36010.97763564121851232" ymax="67364.89361088993609883" xmax="82789.02248553479148541"/>
+   <LayerSet/>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{dea91178-d092-4f96-b6c1-b6f93db20f15}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Gitter 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="square"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="0" page="1" id="Berlin - Surroundings" lastValidViewScaleFactor="2.85714" positionMode="0" positionLock="false" x="0" y="0" visibility="0" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="297" outlineWidth="0.3" excludeFromExports="0" uuid="{f0ec31bb-b556-44d0-9d3a-4404a150255b}" height="222.75" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+  <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Cache" drawCanvasItems="true">
+   <Extent ymin="5790968.9477748041972518" xmin="350749.8596963353920728" ymax="5844428.94782933313399553" xmax="426349.85977344738785177"/>
+   <LayerSet>
+    <Layer>Eco_Hubs___Potential_bulidings___0120150308123757629</Layer>
+    <Layer>Grocery_stores_Kopie20150303112748623</Layer>
+    <Layer>Settlement_area20150119144936966</Layer>
+   </LayerSet>
+   <Grid/>
+   <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{3d03e51d-2d30-4fde-be4f-a45a60e75b06}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Gitter 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+    <lineStyle>
+     <symbol alpha="1" clip_to_extent="1" type="line" name="">
+      <layer pass="0" class="SimpleLine" locked="0">
+       <prop k="capstyle" v="square"/>
+       <prop k="customdash" v="5;2"/>
+       <prop k="customdash_map_unit_scale" v="0,0"/>
+       <prop k="customdash_unit" v="MM"/>
+       <prop k="draw_inside_polygon" v="0"/>
+       <prop k="joinstyle" v="bevel"/>
+       <prop k="line_color" v="0,0,0,255"/>
+       <prop k="line_style" v="solid"/>
+       <prop k="line_width" v="0"/>
+       <prop k="line_width_unit" v="MM"/>
+       <prop k="offset" v="0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="use_custom_dash" v="0"/>
+       <prop k="width_map_unit_scale" v="0,0"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </lineStyle>
+    <markerStyle>
+     <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+      <layer pass="0" class="SimpleMarker" locked="0">
+       <prop k="angle" v="0"/>
+       <prop k="color" v="0,0,0,255"/>
+       <prop k="horizontal_anchor_point" v="1"/>
+       <prop k="name" v="circle"/>
+       <prop k="offset" v="0,0"/>
+       <prop k="offset_map_unit_scale" v="0,0"/>
+       <prop k="offset_unit" v="MM"/>
+       <prop k="outline_color" v="0,0,0,255"/>
+       <prop k="outline_style" v="solid"/>
+       <prop k="outline_width" v="0"/>
+       <prop k="outline_width_map_unit_scale" v="0,0"/>
+       <prop k="outline_width_unit" v="MM"/>
+       <prop k="scale_method" v="area"/>
+       <prop k="size" v="2"/>
+       <prop k="size_map_unit_scale" v="0,0"/>
+       <prop k="size_unit" v="MM"/>
+       <prop k="vertical_anchor_point" v="1"/>
+       <effect enabled="0" type="effectStack">
+        <effect type="dropShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="outerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+        <effect type="drawSource">
+         <prop k="blend_mode" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="1"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerShadow">
+         <prop k="blend_mode" v="13"/>
+         <prop k="blur_level" v="10"/>
+         <prop k="color" v="0,0,0,255"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="offset_angle" v="135"/>
+         <prop k="offset_distance" v="2"/>
+         <prop k="offset_unit" v="MM"/>
+         <prop k="offset_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0"/>
+        </effect>
+        <effect type="innerGlow">
+         <prop k="blend_mode" v="0"/>
+         <prop k="blur_level" v="3"/>
+         <prop k="color_type" v="0"/>
+         <prop k="draw_mode" v="2"/>
+         <prop k="enabled" v="0"/>
+         <prop k="single_color" v="255,255,255,255"/>
+         <prop k="spread" v="2"/>
+         <prop k="spread_unit" v="MM"/>
+         <prop k="spread_unit_scale" v="0,0"/>
+         <prop k="transparency" v="0.5"/>
+        </effect>
+       </effect>
+      </layer>
+     </symbol>
+    </markerStyle>
+    <annotationFontProperties description=".Lucida Grande UI,13,-1,5,50,0,0,0,0,0" style=""/>
+   </ComposerMapGrid>
+   <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+   <ComposerItem pagey="0" page="1" id="Berlin" lastValidViewScaleFactor="2.57296" positionMode="0" positionLock="false" x="0" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="420" outlineWidth="0.3" excludeFromExports="0" uuid="{25fc5458-ffe9-4d17-bcd2-b867cf956627}" height="297" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerMap>
+ </Composition>
+</Composer>
