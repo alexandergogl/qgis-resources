@@ -21,3 +21,5 @@ Then click on the tab of the server type (WMS, WCS or WFS) you want to edit and 
 Now you can select one of the imported server from the dropdown list and connect to it by clicking on Connect (Verbinden). Select a layer and click on Add (Hinzufügen).
 
 ![Connecting and adding a web resource](images/qgis-03.png)
+
+### Importing Server URLs into QGIS 2
