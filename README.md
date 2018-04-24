@@ -10,6 +10,9 @@ Download the xml files from the following list by clicking on the link > clickin
 - [WFS Server URLs](source/server-urls/wfs_server.xml)
 - [WCS Server URLs](source/server-urls/wms_server.xml)
 
+
+### Importing server URLs into QGIS 3
+
 Next, import the xml files into QGIS by launching QGIS and clicking on the symbol beneath the new file symbol (Datenquellenverwaltung öffnen).
 
 ![Datenquellenverwaltung öffnen](images/qgis-01.png)
@@ -21,5 +24,3 @@ Then click on the tab of the server type (WMS, WCS or WFS) you want to edit and 
 Now you can select one of the imported server from the dropdown list and connect to it by clicking on Connect (Verbinden). Select a layer and click on Add (Hinzufügen).
 
 ![Connecting and adding a web resource](images/qgis-03.png)
-
-### Importing Server URLs into QGIS 2
