@@ -1,0 +1,81 @@
+<Composer title="3" visible="1">
+ <Composition gridVisible="0" printResolution="300" paperWidth="428" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="1" snapGridOffsetY="0" alignmentSnap="1" snapping="1" snapTolerancePixels="5" numPages="1" paperHeight="297" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <ComposerScaleBar segmentMillimeters="15" numMapUnitsPerScaleBarUnit="1000" numSegments="5" height="3" alignment="0" labelBarSpace="3" outlineWidth="0.01" units="1" numSegmentsLeft="4" lineJoinStyle="miter" style="Numeric" unitLabel="km" lineCapStyle="square" font="Calibri,9,-1,5,50,0,0,0,0,0" boxContentSpace="1" numUnitsPerSegment="3000">
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="0" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="273" page="1" id="&lt;scale>" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="361" y="273" visibility="1" zValue="17" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="27" outlineWidth="0.3" excludeFromExports="0" uuid="{4cacb65c-3ffa-414d-9a22-911c533ed09f}" height="6" itemRotation="0" frame="false" pagex="361">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="M" htmlState="0" halign="1">
+   <LabelFont description="Calibri,9,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="273" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="356" y="273" visibility="1" zValue="16" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="5" outlineWidth="0.3" excludeFromExports="0" uuid="{2bb58f5a-2198-4dd2-92ad-7a611e30a3e7}" height="6.27" itemRotation="0" frame="false" pagex="356">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerScaleBar segmentMillimeters="10" numMapUnitsPerScaleBarUnit="1000" numSegments="5" height="3" alignment="0" labelBarSpace="3" outlineWidth="0.01" units="1" numSegmentsLeft="4" lineJoinStyle="miter" style="Double Box" unitLabel="km" lineCapStyle="square" font="Calibri,9,-1,5,50,0,0,0,0,0" boxContentSpace="1" numUnitsPerSegment="2000">
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="0" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="261" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="355.813" y="261" visibility="1" zValue="15" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="69.1872" outlineWidth="0.3" excludeFromExports="0" uuid="{54dca97b-4dfa-4246-86d6-ec72c82fd014}" height="12" itemRotation="0" frame="false" pagex="355.813">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerLegend symbolWidth="2" title="" boxSpace="2" splitLayer="1" equalColumnWidth="0" titleAlignment="1" symbolHeight="6" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="10">
+   <styles>
+    <style marginBottom="2" name="title" font="Helvetica,9,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="group" font="Helvetica,9,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="subgroup" font="Helvetica,9,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="symbol" font=",13,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" marginLeft="0.4" name="symbolLabel" font="Helvetica,9,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Population in census blocks (2014)">
+     <customproperties>
+      <property key="legend/title-style" value="group"/>
+     </customproperties>
+    </layer-tree-group>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Berlin_Broker___Einwohneranzahl_2010_1420160213202956013" name="Berlin Broker - Einwohneranzahl 2010-14">
+     <customproperties>
+      <property key="legend/title-style" value="hidden"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <ComposerItem pagey="261" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5" y="261" visibility="1" zValue="14" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.6297" outlineWidth="0.3" excludeFromExports="0" uuid="{e7e69796-49ee-4a11-a83d-7f19fd4b5fe4}" height="9.96406" itemRotation="0" frame="false" pagex="5">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Map composed with data from SVSU-2014b." htmlState="0" halign="1">
+   <LabelFont description="Calibri,9,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="280" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7" y="280" visibility="1" zValue="13" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="335" outlineWidth="0.3" excludeFromExports="0" uuid="{74ea3a40-cf9e-4158-add6-969dfc5e7de4}" height="17" itemRotation="0" frame="false" pagex="7">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+ </Composition>
+</Composer>

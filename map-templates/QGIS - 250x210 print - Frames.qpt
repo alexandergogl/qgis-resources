@@ -1,0 +1,149 @@
+<Composer title="1" visible="1">
+ <Composition gridVisible="0" printResolution="300" paperWidth="218" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="1" snapGridOffsetY="0" alignmentSnap="1" snapping="1" snapTolerancePixels="5" numPages="1" paperHeight="297" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+  <symbol alpha="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <ComposerLegend symbolWidth="2" title="" boxSpace="2" splitLayer="1" equalColumnWidth="0" titleAlignment="1" symbolHeight="6" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="8">
+   <styles>
+    <style marginBottom="2" name="title" font="Calibri,9,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="group" font="Calibri,9,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="subgroup" font="Calibri,9,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" name="symbol" font=",13,-1,5,50,0,0,0,0,0"/>
+    <style marginTop="2" marginLeft="0.4" name="symbolLabel" font="Calibri,9,-1,5,50,0,0,0,0,0"/>
+   </styles>
+   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Building polygons">
+     <customproperties>
+      <property key="legend/title-style" value="subgroup"/>
+     </customproperties>
+    </layer-tree-group>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Merged20160215161813223" name="Selected buildings">
+     <customproperties>
+      <property key="legend/title-label" value="Selected"/>
+     </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="Merged20160215163945731" name="Excluded buildings (type)">
+     <customproperties>
+      <property key="legend/title-label" value="Excluded"/>
+     </customproperties>
+    </layer-tree-layer>
+   </layer-tree-group>
+   <ComposerItem pagey="261" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="5" y="261" visibility="1" zValue="9" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="53.4859" outlineWidth="0.3" excludeFromExports="0" uuid="{d090f68d-2807-4132-bba4-7af2619a8b1b}" height="10.5469" itemRotation="0" frame="false" pagex="5">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLegend>
+  <ComposerScaleBar segmentMillimeters="16" numMapUnitsPerScaleBarUnit="1000" numSegments="5" height="3" alignment="0" labelBarSpace="3" outlineWidth="0.01" units="1" numSegmentsLeft="4" lineJoinStyle="miter" style="Numeric" unitLabel="km" lineCapStyle="square" font="Calibri,9,-1,5,50,0,0,0,0,0" boxContentSpace="1" numUnitsPerSegment="800">
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="0" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="271" page="1" id="&lt;scale>" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="149" y="271" visibility="1" zValue="8" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="27" outlineWidth="0.3" excludeFromExports="0" uuid="{e30ecbe1-7259-4019-8aee-420436bcac12}" height="6" itemRotation="0" frame="false" pagex="149">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerLabel valign="32" marginX="1" marginY="1" labelText="M" htmlState="0" halign="1">
+   <LabelFont description="Calibri,9,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="271" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="145" y="271" visibility="1" zValue="7" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="5" outlineWidth="0.3" excludeFromExports="0" uuid="{ec9b1479-ad98-4c7e-92ec-4b84a5f45702}" height="6.27" itemRotation="0" frame="false" pagex="145">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerScaleBar segmentMillimeters="10" numMapUnitsPerScaleBarUnit="1000" numSegments="5" height="3" alignment="0" labelBarSpace="3" outlineWidth="0.01" units="1" numSegmentsLeft="4" lineJoinStyle="miter" style="Double Box" unitLabel="km" lineCapStyle="square" font="Calibri,9,-1,5,50,0,0,0,0,0" boxContentSpace="1" numUnitsPerSegment="500">
+   <fillColor alpha="255" red="0" blue="0" green="0"/>
+   <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+   <strokeColor alpha="0" red="0" blue="0" green="0"/>
+   <textColor alpha="255" red="0" blue="0" green="0"/>
+   <ComposerItem pagey="261" page="1" id="" lastValidViewScaleFactor="-1" positionMode="2" positionLock="false" x="144.194" y="261" visibility="1" zValue="6" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="70.806" outlineWidth="0.3" excludeFromExports="0" uuid="{820b2393-b7c9-4fa7-bced-84965856b3b4}" height="12" itemRotation="0" frame="false" pagex="144.194">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerScaleBar>
+  <ComposerLabel valign="32" marginX="0" marginY="0" labelText="Map composed with data from OSM-2015a." htmlState="0" halign="1">
+   <LabelFont description="Calibri,9,-1,5,50,0,0,0,0,0"/>
+   <FontColor red="0" blue="0" green="0"/>
+   <ComposerItem pagey="280" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="7" y="280" visibility="1" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="208" outlineWidth="0.3" excludeFromExports="0" uuid="{c21f7576-a203-411b-9833-e56e71d691a6}" height="17" itemRotation="0" frame="false" pagex="7">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerLabel>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="255,0,0,255"/>
+     <prop k="outline_style" v="dash"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="no"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="0" page="1" id="layout.bleed" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="0" y="0" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="218" outlineWidth="0.3" excludeFromExports="1" uuid="{4908c3d8-5863-488d-af73-78e875a77240}" height="258" itemRotation="0" frame="false" pagex="0">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.6"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="no"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="4" page="1" id="layout.page" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="4" y="4" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="210" outlineWidth="0.3" excludeFromExports="1" uuid="{6b0d8963-20b9-4d0a-b974-eb584092f2cf}" height="250" itemRotation="0" frame="false" pagex="4">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="255,0,0,255"/>
+     <prop k="outline_style" v="dash"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="no"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="8" page="1" id="layout.safe_border" lastValidViewScaleFactor="-1" positionMode="0" positionLock="true" x="24" y="8" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="170" outlineWidth="0.3" excludeFromExports="1" uuid="{34728be4-39ff-4779-a985-2c9d1c052f4f}" height="242" itemRotation="0" frame="false" pagex="24">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   </ComposerItem>
+  </ComposerShape>
+ </Composition>
+</Composer>

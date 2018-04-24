@@ -1,0 +1,7 @@
+<!DOCTYPE connections>
+<qgsWCSConnections version="1.0">
+    <wcs password="" username="" url="https://gis.tirol.gv.at/arcgis/services/Service_Public/terrain/MapServer/WCSServer?" name="AT - Tirol - Gelände"/>
+    <wcs password="" username="" url="http://wms.pcn.minambiente.it/ogc?map=/ms_ogc/WMS_v1.3/raster/ortofoto_colore_12.map" name="IT - Geoportale Nazionale"/>
+    <wcs password="" username="" url="http://sedac.ciesin.columbia.edu/geoserver/wms" name="NASA Global Rural-Urban Mapping Project"/>
+    <wcs password="" username="" url="http://wms.pcn.minambiente.it/wcs/dtm_20m" name="Potato - Terre"/>
+</qgsWCSConnections>
