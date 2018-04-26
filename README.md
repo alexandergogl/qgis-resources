@@ -3,7 +3,7 @@
 A collection of QGIS colour schemes, layer styles, map templates, symbols, and server urls.
 
 
-## Server urls
+## Server URLs
 Download the xml files from the following list by clicking on the link > clicking on Raw and then Save as in your browser.
 
 - [WCS Server URLs](source/server-urls/wcs_server.xml)
