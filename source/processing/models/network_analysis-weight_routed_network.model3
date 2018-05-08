@@ -1,0 +1,121 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="model:Explode polylines_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="model:Explode polylines" type="QString"/>
+      <Option name="component_description" value="Explode polylines" type="QString"/>
+      <Option name="component_pos_x" value="256" type="double"/>
+      <Option name="component_pos_y" value="167" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="model:Explode polylines_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="routinglayer" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="routinglayer" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="model:Overlapping segments count_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="model:Overlapping segments count" type="QString"/>
+      <Option name="component_description" value="Overlapping segments count" type="QString"/>
+      <Option name="component_pos_x" value="435" type="double"/>
+      <Option name="component_pos_y" value="284" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="model:Overlapping segments count_1" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="Weighted routed network" type="Map">
+          <Option name="child_id" value="model:Overlapping segments count_1" type="QString"/>
+          <Option name="component_description" value="Weighted routed network" type="QString"/>
+          <Option name="component_pos_x" value="426" type="double"/>
+          <Option name="component_pos_y" value="420" type="double"/>
+          <Option name="name" value="Weighted routed network" type="QString"/>
+          <Option name="output_name" value="qgis:joinbylocationsummary_1:Overlapping segments count" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="idfield" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="idfield" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="routinglayer" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="model:Explode polylines_1" type="QString"/>
+            <Option name="output_name" value="qgis:explodelines_1:Exploded lines" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help" type="Map">
+    <Option name="ALG_CREATOR" value="Alexander Gogl" type="QString"/>
+    <Option name="ALG_DESC" value="Count the number of segments touching each other. This can be used to create traffic volume maps where the amount of overlapping segments from a network routing analysis are stored in a count field.&#xa;&#xa;This count field can be used for a graduated symbiology in the layer preferences to draw the thickness of each segment according to the number of overlapping segments." type="QString"/>
+    <Option name="ALG_VERSION" value="1.0" type="QString"/>
+    <Option name="model:Overlapping segments count_1:Weighted routed network" value="The weighted network layer" type="QString"/>
+    <Option name="routinglayer" value="The network layer used for the calculation. This layer most likely results from a network analysis like shortest path calculations." type="QString"/>
+  </Option>
+  <Option name="model_group" value="Network analysis" type="QString"/>
+  <Option name="model_name" value="Weight routed network" type="QString"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="idfield" type="Map">
+      <Option name="allow_multiple" value="false" type="bool"/>
+      <Option name="data_type" value="-1" type="int"/>
+      <Option name="default" value="" type="Unknown"/>
+      <Option name="description" value="ID field" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="idfield" type="QString"/>
+      <Option name="parameter_type" value="field" type="QString"/>
+      <Option name="parent_layer" value="routinglayer" type="QString"/>
+    </Option>
+    <Option name="model:Overlapping segments count_1:Weighted routed network" type="Map">
+      <Option name="create_by_default" value="true" type="bool"/>
+      <Option name="data_type" value="-1" type="int"/>
+      <Option name="default" value="" type="Unknown"/>
+      <Option name="description" value="Weighted routed network" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="model:Overlapping segments count_1:Weighted routed network" type="QString"/>
+      <Option name="parameter_type" value="sink" type="QString"/>
+      <Option name="supports_non_file_outputs" value="true" type="bool"/>
+    </Option>
+    <Option name="routinglayer" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="1" type="int"/>
+      </Option>
+      <Option name="default" value="" type="Unknown"/>
+      <Option name="description" value="Routed network" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="metadata"/>
+      <Option name="name" value="routinglayer" type="QString"/>
+      <Option name="parameter_type" value="vector" type="QString"/>
+    </Option>
+  </Option>
+  <Option name="parameters" type="Map">
+    <Option name="idfield" type="Map">
+      <Option name="component_description" value="idfield" type="QString"/>
+      <Option name="component_pos_x" value="497" type="double"/>
+      <Option name="component_pos_y" value="85" type="double"/>
+      <Option name="name" value="idfield" type="QString"/>
+    </Option>
+    <Option name="routinglayer" type="Map">
+      <Option name="component_description" value="routinglayer" type="QString"/>
+      <Option name="component_pos_x" value="238" type="double"/>
+      <Option name="component_pos_y" value="77" type="double"/>
+      <Option name="name" value="routinglayer" type="QString"/>
+    </Option>
+  </Option>
+</Option>
