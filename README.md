@@ -28,7 +28,11 @@ Now you can select one of the imported server from the dropdown list and connect
 
 ### Network analysis
 
+<<<<<<< HEAD
 #### Weight network processing model
+=======
+#### Weight network
+>>>>>>> b2fe590184dbb340f9aa38e60fb00ddf44d25c39
 
 ![Weighted network](images/qgis_weighted_network_13.png)
 
